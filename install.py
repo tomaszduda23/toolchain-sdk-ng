@@ -3,7 +3,7 @@ import tarfile
 import urllib.request
 import platform
 
-VERSION = "0.16.1"
+VERSION = "0.17.0"
 BASE_URL = "https://github.com/zephyrproject-rtos/sdk-ng/releases/download"
 ROOT_DIR = os.path.dirname(os.path.realpath(__file__))
 TOOLCHAIN_INSTALLED = os.path.join(ROOT_DIR, "toolchain_installed")
